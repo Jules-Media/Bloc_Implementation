@@ -1,8 +1,7 @@
-name: bloc_pattern
-description: A Implementation of Flutters BLoC Pattern
+name: easy_bloc
+description: A easy and simple Implementation of the BLoC (Buisness Logic Component) Pattern in Flutter / Dart
 version: 0.0.1
-homepage:
-
+repository: https://github.com/Jules-sh/Easy_Bloc
 environment:
   sdk: ">=2.16.2 <3.0.0"
   flutter: ">=1.17.0"

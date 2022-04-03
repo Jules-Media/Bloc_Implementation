@@ -1,4 +1,4 @@
-library bloc_pattern;
+library easy_bloc;
 
 /// Exception thrown when the Bloc is not found in
 /// the Widget Tree
