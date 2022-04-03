@@ -1,4 +1,4 @@
-library easy_bloc;
+library bloc_implementation;
 
 import 'package:flutter/material.dart';
 
