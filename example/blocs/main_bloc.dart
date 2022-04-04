@@ -6,14 +6,10 @@ import 'package:bloc_implementation/bloc_implementation.dart';
 
 class MainBloc implements Bloc {
   @override
-  StreamController? controller;
-
-  MainBloc() {
-    controller = StreamController();
-  }
+  StreamController get controller => StreamController();
 
   @override
   void dispose() {
-    controller!.close();
+    controller.close();
   }
 }
