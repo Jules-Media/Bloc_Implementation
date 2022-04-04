@@ -5,3 +5,7 @@
 ## 0.0.2
 
 * Add Documentation and Example
+
+## 0.0.3
+
+* Refactoring
