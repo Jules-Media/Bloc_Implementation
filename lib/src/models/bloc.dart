@@ -8,10 +8,12 @@ abstract class Bloc {
   Bloc();
 
   /// Stream Controller to use for the Stream
-  StreamController? controller;
+  late final StreamController? controller;
 
   /// Method to dispose everything.
   /// Here you cancel all Listeners on
   /// the Stream. Also you close the Stream
-  void dispose();
+  void dispose() {
+    controller!.close();
+  }
 }
