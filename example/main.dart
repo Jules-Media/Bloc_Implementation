@@ -1,9 +1,11 @@
 library bloc_implementation;
 
 import 'package:bloc_implementation/bloc_implementation.dart';
-import 'package:bloc_implementation/example/blocs/main_bloc.dart';
-import 'package:bloc_implementation/example/screens/homescreen.dart';
+
 import 'package:flutter/material.dart';
+
+import 'blocs/main_bloc.dart';
+import 'screens/homescreen.dart';
 
 class ExampleApp extends StatefulWidget {
   const ExampleApp({Key? key}) : super(key: key);
