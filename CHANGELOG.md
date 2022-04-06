@@ -9,3 +9,9 @@
 ## 0.0.3
 
 * Refactoring
+
+## 0.0.4
+
+* adjust Example
+* export Exception
+* Bugfixes
