@@ -1,6 +1,6 @@
 library bloc_implementation;
 
-import 'dart:async';
+import 'dart:async' show StreamController;
 
 import 'package:bloc_implementation/bloc_implementation.dart' show Bloc;
 

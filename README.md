@@ -13,6 +13,9 @@ and the Flutter guide for
 
 # Bloc Implementation
 
+Github: https://github.com/Jules-sh/Bloc_Implementation
+Pub.dev: https://pub.dev/packages/bloc_implementation
+
 ## Features
 
 This Package helps you implement the Bloc Pattern
@@ -22,6 +25,8 @@ This Package helps you implement the Bloc Pattern
 Get the package and your ready to start
 
 ## Usage
+
+The BlocParent Class is something like the BlocProvider in other Packages. The Bloc is an abtract class / interface you can implement into your Blocs.
 
 Example:
 

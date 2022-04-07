@@ -1,6 +1,6 @@
 library bloc_implementation;
 
-import 'package:bloc_implementation/bloc_implementation.dart';
+import 'package:bloc_implementation/bloc_implementation.dart' show BlocParent;
 
 import 'package:flutter/material.dart';
 

@@ -15,3 +15,8 @@
 * adjust Example
 * export Exception
 * Bugfixes
+
+## 0.0.5
+
+* code Cleanup
+* update README.md

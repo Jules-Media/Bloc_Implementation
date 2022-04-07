@@ -1,6 +1,6 @@
 library bloc_implementation;
 
-import 'dart:async';
+import 'dart:async' show StreamController;
 
 /// Abstract Interface for all Blocs
 abstract class Bloc {
