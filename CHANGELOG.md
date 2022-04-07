@@ -18,5 +18,10 @@
 
 ## 0.0.5
 
-* code Cleanup
-* update README.md
+* Code Cleanup
+* Update README.md
+
+## 0.0.6
+
+* Update README.md
+* Make a few Changes in the Example

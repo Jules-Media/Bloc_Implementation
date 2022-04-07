@@ -1,6 +1,6 @@
 name: bloc_implementation
 description: A easy and simple Implementation of the BLoC (Buisness Logic Component) Pattern in Flutter / Dart
-version: 0.0.5
+version: 0.0.6
 repository: https://github.com/Jules-sh/Bloc_Implementation
 environment:
   sdk: ">=2.16.2 <3.0.0"
