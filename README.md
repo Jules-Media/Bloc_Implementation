@@ -18,11 +18,13 @@ Pub.dev: https://pub.dev/packages/bloc_implementation
 
 ## Features
 
-This Package helps you implement the Bloc Pattern
+This Package helps you implement the Bloc Pattern. \
+The BLoC (Buisness Logic Component) Pattern is a Pattern recommmended by Google Developers to use in your Flutter Projects.
+The BLoC Pattern uses Streams and Sinks to exchange Information between two Widgets, that have no other Connection. This is especially useful if you extract your widgets and as a consequence have a ton of widgets for a single Screen.
 
 ## Getting started
 
-Get the package and your ready to start
+Get the package and your ready to start. It's that easy
 
 ## Usage
 
@@ -38,3 +40,5 @@ final _bloc = Bloc();
 
 This Package helps you implement the Bloc Pattern used in Flutter.
 Bloc stands for Buisness Logic Component
+
+© 2022 Julian Schumacher

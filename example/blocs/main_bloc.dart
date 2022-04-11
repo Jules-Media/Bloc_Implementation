@@ -23,7 +23,7 @@ class MainBloc implements Bloc {
 
   /// Method which listens on the Stream
   void listenOnStream(String input) {
-    if (input == "Button Pressed") {
+    if (input == 'Button Pressed') {
       // Do Stuff
       if (_timesButtonPressed > 5) {
         _timesButtonPressed = 0;
@@ -37,6 +37,6 @@ class MainBloc implements Bloc {
 
   @override
   void dispose() {
-    controller.close();
+    _controller.close();
   }
 }

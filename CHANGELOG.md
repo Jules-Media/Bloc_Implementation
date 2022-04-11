@@ -25,3 +25,9 @@
 
 * Update README.md
 * Make a few Changes in the Example
+
+## 0.0.7
+
+* Update README.md
+* Update analysis_options.yaml
+* Change Code to match Dart Best Practices

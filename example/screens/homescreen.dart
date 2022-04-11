@@ -17,34 +17,34 @@ class _HomescreenState extends State<Homescreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Example App"),
+        title: const Text('Example App'),
       ),
       body: Column(
         children: <Widget>[
           const Center(
-            child: Text("This is a Text"),
+            child: Text('This is a Text'),
           ),
           TextButton(
             onPressed: () {
               BlocParent.of<MainBloc>(context)
                   .controller
                   .sink
-                  .add("Button Pressed");
+                  .add('Button Pressed');
               showDialog(
                   context: context,
                   builder: (_) {
                     return AlertDialog(
-                      title: const Text("Example Dialog"),
-                      content: const Text("Some Content"),
+                      title: const Text('Example Dialog'),
+                      content: const Text('Some Content'),
                       actions: <TextButton>[
                         TextButton(
                             onPressed: () => Navigator.pop(context),
-                            child: const Text("OK")),
+                            child: const Text('OK')),
                       ],
                     );
                   });
             },
-            child: const Text("Show me something!"),
+            child: const Text('Show me something!'),
           ),
         ],
       ),
