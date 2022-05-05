@@ -1,19 +1,31 @@
 library bloc_implementation;
 
-import 'dart:async' show StreamController;
+import 'package:flutter/material.dart';
 
 /// Abstract Interface for all Blocs
 abstract class Bloc {
-  /// Standard Constructor
-  Bloc();
+  /// Constant Constructor
+  const Bloc();
 
-  /// Stream Controller to use for the Stream
-  final StreamController controller = StreamController();
+  /// Create a Bloc to use
+  void createBloc();
+}
+
+abstract class BlocInstance {
+  /// Standard Constructor
+  BlocInstance() {
+    init();
+  }
+
+  /// Init the Bloc.
+  /// Here you can initialize
+  @mustCallSuper
+  void init() {
+    // Initialize Stuff
+  }
 
   /// Method to dispose everything.
   /// Here you cancel all Listeners on
   /// the Stream. Also you close the Stream
-  void dispose() {
-    controller.close();
-  }
+  void dispose();
 }
