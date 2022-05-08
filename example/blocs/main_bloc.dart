@@ -7,17 +7,11 @@ import 'package:bloc_implementation/bloc_implementation.dart' show Bloc;
 class MainBloc extends Bloc {
   int _timesButtonPressed = 0;
   // Costructor
-  MainBloc() : super() {
+  MainBloc() {
     // Add StreamSubscription to Stream
     _controller.stream.listen((event) {
       listenOnStream(event);
     });
-  }
-
-  @override
-  void init() {
-    print(true);
-    super.init();
   }
 
   final StreamController _controller = StreamController();

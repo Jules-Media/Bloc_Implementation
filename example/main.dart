@@ -8,7 +8,7 @@ import 'blocs/main_bloc.dart';
 import 'screens/homescreen.dart';
 
 void main(List<String> args) {
-  runApp(ExampleApp());
+  runApp(const ExampleApp());
 }
 
 class ExampleApp extends StatefulWidget {

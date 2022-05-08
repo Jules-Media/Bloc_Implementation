@@ -35,3 +35,8 @@
 ## 0.0.8
 
 * First Try to change the Basic Logic
+
+## 1.0.0
+
+First Version finished
+* Bloc Implementation as wished is done

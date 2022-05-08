@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 abstract class Bloc {
   /// Standard Constructor
   Bloc() {
+    // Call Initializing Method
     init();
   }
 
