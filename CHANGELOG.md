@@ -31,3 +31,7 @@
 * Update README.md
 * Update analysis_options.yaml
 * Change Code to match Dart Best Practices
+
+## 0.0.8
+
+* First Try to change the Basic Logic

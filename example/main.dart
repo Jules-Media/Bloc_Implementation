@@ -7,6 +7,10 @@ import 'package:flutter/material.dart';
 import 'blocs/main_bloc.dart';
 import 'screens/homescreen.dart';
 
+void main(List<String> args) {
+  runApp(ExampleApp());
+}
+
 class ExampleApp extends StatefulWidget {
   const ExampleApp({Key? key}) : super(key: key);
 

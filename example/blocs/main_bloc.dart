@@ -2,25 +2,22 @@ library bloc_implementation;
 
 import 'dart:async' show StreamController;
 
-import 'package:bloc_implementation/bloc_implementation.dart'
-    show Bloc, BlocInstance;
+import 'package:bloc_implementation/bloc_implementation.dart' show Bloc;
 
 class MainBloc extends Bloc {
-  @override
-  void createBloc() {
-    BlocInstance _bloc = _MainBloc();
-  }
-}
-
-/// Main Bloc of the App
-class _MainBloc extends BlocInstance {
   int _timesButtonPressed = 0;
   // Costructor
-  _MainBloc() {
+  MainBloc() : super() {
     // Add StreamSubscription to Stream
     _controller.stream.listen((event) {
       listenOnStream(event);
     });
+  }
+
+  @override
+  void init() {
+    print(true);
+    super.init();
   }
 
   final StreamController _controller = StreamController();

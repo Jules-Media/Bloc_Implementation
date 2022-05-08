@@ -4,16 +4,8 @@ import 'package:flutter/material.dart';
 
 /// Abstract Interface for all Blocs
 abstract class Bloc {
-  /// Constant Constructor
-  const Bloc();
-
-  /// Create a Bloc to use
-  void createBloc();
-}
-
-abstract class BlocInstance {
   /// Standard Constructor
-  BlocInstance() {
+  Bloc() {
     init();
   }
 
