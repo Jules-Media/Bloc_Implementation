@@ -40,3 +40,7 @@
 
 First Version finished
 * Bloc Implementation as wished is done
+
+## 1.0.1
+
+* Update Bloc to Inherited Widget

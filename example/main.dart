@@ -21,7 +21,7 @@ class ExampleApp extends StatefulWidget {
 class _ExampleAppState extends State<ExampleApp> {
   @override
   Widget build(BuildContext context) {
-    return BlocParent<MainBloc>(
+    return BlocParent(
       bloc: MainBloc(),
       child: const MaterialApp(
         home: Homescreen(),
