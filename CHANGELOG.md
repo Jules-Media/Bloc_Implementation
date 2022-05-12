@@ -44,3 +44,7 @@ First Version finished
 ## 1.0.1
 
 * Update Bloc to Inherited Widget
+
+## 1.0.2
+
+* Update bloc.dart
