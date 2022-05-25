@@ -41,4 +41,4 @@ final _bloc = Bloc();
 This Package helps you implement the Bloc Pattern used in Flutter.
 Bloc stands for Buisness Logic Component
 
-© 2022 Julian Schumacher
+© Julian Schumacher 2022

@@ -4,8 +4,9 @@ import 'dart:async' show StreamController;
 
 import 'package:bloc_implementation/bloc_implementation.dart' show Bloc;
 
+import '../../example/states/main_state.dart';
+
 class MainBloc extends Bloc {
-  int _timesButtonPressed = 0;
   // Costructor
   MainBloc() {
     // Add StreamSubscription to Stream
@@ -14,19 +15,14 @@ class MainBloc extends Bloc {
     });
   }
 
-  final StreamController _controller = StreamController();
+  final StreamController<MainState> _controller = StreamController<MainState>();
 
-  StreamController get controller => _controller;
+  StreamController<MainState> get controller => _controller;
 
   /// Method which listens on the Stream
-  void listenOnStream(String input) {
-    if (input == 'Button Pressed') {
-      // Do Stuff
-      if (_timesButtonPressed > 5) {
-        _timesButtonPressed = 0;
-      } else {
-        _timesButtonPressed++;
-      }
+  void listenOnStream(MainState input) {
+    if (input.counter <= 1) {
+      print('Button pressed');
     } else {
       return;
     }

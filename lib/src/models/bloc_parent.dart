@@ -29,18 +29,18 @@ class BlocParent<T extends Bloc> extends InheritedWidget {
   /// Of Method to return the Bloc in this Bloc Provider
   static T of<T extends Bloc>(BuildContext context) {
     // Get BlocParent of T
-    final BlocParent<T>? _parentBloc =
+    final BlocParent<T>? parentBloc =
         context.dependOnInheritedWidgetOfExactType();
 
     // Check if Bloc Parent is null
-    if (_parentBloc == null) {
+    if (parentBloc == null) {
       // Bloc is null -> Bloc not found
       throw const BlocNotFoundException(
         message: "The Bloc Parent couldn't be found",
       );
     } else {
       // return the Bloc of this Bloc Parent
-      return _parentBloc.bloc;
+      return parentBloc.bloc;
     }
   }
 

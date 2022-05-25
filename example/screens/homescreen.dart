@@ -4,6 +4,7 @@ import 'package:bloc_implementation/bloc_implementation.dart' show BlocParent;
 import 'package:flutter/material.dart';
 
 import '../blocs/main_bloc.dart';
+import '../states/main_state.dart';
 
 class Homescreen extends StatefulWidget {
   const Homescreen({Key? key}) : super(key: key);
@@ -15,6 +16,7 @@ class Homescreen extends StatefulWidget {
 class _HomescreenState extends State<Homescreen> {
   @override
   Widget build(BuildContext context) {
+    int counter = 0;
     return Scaffold(
       appBar: AppBar(
         title: const Text('Example App'),
@@ -29,7 +31,7 @@ class _HomescreenState extends State<Homescreen> {
               BlocParent.of<MainBloc>(context)
                   .controller
                   .sink
-                  .add('Button Pressed');
+                  .add(MainState(counter: counter++));
               showDialog(
                   context: context,
                   builder: (_) {

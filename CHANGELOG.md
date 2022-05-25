@@ -48,3 +48,8 @@ First Version finished
 ## 1.0.2
 
 * Update bloc.dart
+
+## 1.1.0
+
+* Update Build and minimum Version
+* Implement State
