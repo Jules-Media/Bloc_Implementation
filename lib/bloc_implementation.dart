@@ -7,4 +7,4 @@ library bloc_implementation;
 export 'src/models/bloc.dart';
 export 'src/models/bloc_parent.dart';
 export 'src/exceptions/bloc_not_found_exception.dart';
-export 'src/models/state.dart';
+export 'src/models/bloc_state.dart';

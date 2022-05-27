@@ -1,8 +1,8 @@
 library bloc_implemenation;
 
-import 'package:bloc_implementation/bloc_implementation.dart' show State;
+import 'package:bloc_implementation/bloc_implementation.dart' show BlocState;
 
-class MainState extends State {
+class MainState extends BlocState {
   const MainState({
     required this.counter,
   });

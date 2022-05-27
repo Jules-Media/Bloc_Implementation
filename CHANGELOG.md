@@ -53,3 +53,11 @@ First Version finished
 
 * Update Build and minimum Version
 * Implement State
+
+## 1.1.1
+
+* Bugfix
+
+## 1.1.2
+
+* Bugfix
