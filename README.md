@@ -13,7 +13,7 @@ and the Flutter guide for
 
 # Bloc Implementation
 
-Github: https://github.com/Jules-sh/Bloc_Implementation \
+Github: https://github.com/Jules-Media/Bloc_Implementation \
 Pub.dev: https://pub.dev/packages/bloc_implementation
 
 ## Features
