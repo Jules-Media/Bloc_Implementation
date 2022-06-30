@@ -1,6 +1,7 @@
 library bloc_implementation;
 
-import 'package:flutter/material.dart';
+import 'package:flutter/material.dart'
+    show BuildContext, InheritedWidget, Key, Widget;
 
 import '../exceptions/bloc_not_found_exception.dart';
 import 'bloc.dart';
@@ -12,10 +13,7 @@ class BlocParent<T extends Bloc> extends InheritedWidget {
     required this.bloc,
     required Widget child,
     Key? key,
-  }) : super(
-          key: key,
-          child: child,
-        );
+  }) : super(key: key, child: child);
 
   /// The Widget, for example a Stateful Widget
   /// or a Scaffold. Could also be a Container.
