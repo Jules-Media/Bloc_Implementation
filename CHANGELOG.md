@@ -1,30 +1,40 @@
-## 0.0.1
+## 1.1.4
 
-* Initial Code
+* Update flutter and dart Version
 
-## 0.0.2
+## 1.1.3
 
-* Add Documentation and Example
+* Update README Link
 
-## 0.0.3
+## 1.1.2
 
-* Refactoring
+* Bugfix
 
-## 0.0.4
+## 1.1.1
 
-* adjust Example
-* export Exception
-* Bugfixes
+* Bugfix
 
-## 0.0.5
+## 1.1.0
 
-* Code Cleanup
-* Update README.md
+* Update Build and minimum Version
+* Implement State
 
-## 0.0.6
+## 1.0.2
 
-* Update README.md
-* Make a few Changes in the Example
+* Update bloc.dart
+
+## 1.0.1
+
+* Update Bloc to Inherited Widget
+
+## 1.0.0
+
+First Version finished
+* Bloc Implementation as wished is done
+
+## 0.0.8
+
+* First Try to change the Basic Logic
 
 ## 0.0.7
 
@@ -32,36 +42,30 @@
 * Update analysis_options.yaml
 * Change Code to match Dart Best Practices
 
-## 0.0.8
+## 0.0.6
 
-* First Try to change the Basic Logic
+* Update README.md
+* Make a few Changes in the Example
 
-## 1.0.0
+## 0.0.5
 
-First Version finished
-* Bloc Implementation as wished is done
+* Code Cleanup
+* Update README.md
 
-## 1.0.1
+## 0.0.4
 
-* Update Bloc to Inherited Widget
+* adjust Example
+* export Exception
+* Bugfixes
 
-## 1.0.2
+## 0.0.3
 
-* Update bloc.dart
+* Refactoring
 
-## 1.1.0
+## 0.0.2
 
-* Update Build and minimum Version
-* Implement State
+* Add Documentation and Example
 
-## 1.1.1
+## 0.0.1
 
-* Bugfix
-
-## 1.1.2
-
-* Bugfix
-
-## 1.1.3
-
-* Update README Link
+* Initial Code
